@@ -141,7 +141,7 @@ class yoyoManage(object):
     #         for item in new_list:
     #             token_list.append(item['token'])
     #
-    #         print(f'赔率已过期,获取新token列表:{token_list}')
+    #         print(f'token已过期,获取新token列表:{token_list}')
     #
     #         return token_list
 
