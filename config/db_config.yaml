@@ -1,0 +1,54 @@
+# -*- coding: utf-8 -*-
+# @Time    : 2023/05/23 19:14
+# @Author  : 太阳
+# @FileName: 数据库配置文件        test  extranet
+# @Software: PyCharm
+
+-
+  environment: "test"
+-
+# 测试环境oracle配置-yolink
+  yolink_config:
+    host: '172.30.4.181'
+    user: 'YOLINK'
+    password: "Qy_yok#2022"
+    service_name: "yolink"
+    port: 1521
+    describe: '测试环境oracle配置'
+
+# 测试环境oracle配置-考勤平台
+  kaoqin_config:
+    host: '172.30.4.181'
+    user: 'YOLINK'
+    password: "Qy_yok#2022"
+    service_name: "yolink"
+    port: 1521
+    describe: '测试环境oracle配置'
+
+# 测试环境oracle配置-办公平台
+  common_config:
+    host: '172.30.4.181'
+    user: 'YOLINK'
+    password: "Qy_yok#2022"
+    service_name: "yolink"
+    port: 1521
+    describe: '测试环境oracle配置'
+
+
+# 正式环境oracle配置-yolink
+  oracle_extranet:
+    host: '172.31.12.211'
+    user: 'dataquery'
+    password: "Qy_dataq#2023"
+    service_name: "yolink"
+    port: 1521
+    describe: '正式环境oracle配置'
+
+
+# 正式环境IP配置
+  extranet_url:
+    url: "https://yolink.quanyou.com.cn"
+
+# 测试环境IP配置
+  test_url:
+    url: "https://yolinkcs.quanyou.com.cn"
